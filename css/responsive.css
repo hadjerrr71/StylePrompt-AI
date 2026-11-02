@@ -1,0 +1,117 @@
+@media(max-width:850px) {
+    .site-header {
+        height: auto;
+        min-height: 72px;
+        flex-wrap: wrap;
+        padding: 16px 22px
+    }
+
+    .site-header nav {
+        order: 3;
+        width: 100%;
+        overflow: auto;
+        gap: 19px;
+        padding-top: 8px
+    }
+
+    .header-cta {
+        margin-left: auto
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding-top: 60px
+    }
+
+    .hero-art {
+        height: 330px;
+        max-width: 550px;
+        width: 100%;
+        margin: auto
+    }
+
+    .style-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .detail-layout {
+        grid-template-columns: 1fr
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media(max-width:560px) {
+    .site-header nav {
+        font-size: 12px
+    }
+
+    .header-cta {
+        display: none
+    }
+
+    .hero {
+        padding: 55px 22px
+    }
+
+    .hero h1 {
+        font-size: 48px
+    }
+
+    .hero-art {
+        height: 290px
+    }
+
+    .floating-card {
+        width: 190px
+    }
+
+    .floating-card img {
+        height: 110px
+    }
+
+    .section,
+    .page-shell {
+        padding: 50px 18px
+    }
+
+    .section-heading {
+        align-items: start;
+        gap: 15px;
+        flex-direction: column
+    }
+
+    .style-grid,
+    .category-grid,
+    .steps {
+        grid-template-columns: 1fr
+    }
+
+    .style-card .preview {
+        height: 220px
+    }
+
+    .page-intro h1 {
+        font-size: 35px
+    }
+
+    .toolbar {
+        flex-direction: column
+    }
+
+    .toolbar select {
+        padding: 13px
+    }
+
+    footer {
+        align-items: flex-start;
+        gap: 10px;
+        flex-direction: column
+    }
+
+    .detail-copy h1 {
+        font-size: 35px
+    }
+}

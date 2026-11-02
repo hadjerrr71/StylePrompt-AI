@@ -1,0 +1,12 @@
+.page-shell {
+    min-height: 70vh
+}
+
+.page-intro {
+    padding-top: 15px
+}
+
+.category-card:hover {
+    border-color: #cbb99f;
+    background: #faf6ee
+}

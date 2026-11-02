@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const root=document.getElementById("favorite-styles");const list=styles.filter(s=>isFavorite(s.id));root.innerHTML=list.map(createStyleCard).join("");document.getElementById("empty-favorites").classList.toggle("hidden",list.length>0);});
